@@ -41,7 +41,7 @@
 
   const init = () => {
       
-      reset()
+      reset();
       
       if (!isProductPage()) return;
       fetchProducts().then(products => buildCarousel(products));
